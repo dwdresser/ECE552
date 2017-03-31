@@ -1,0 +1,85 @@
+/afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/nand2.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/nand2.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module nand2
+
+Top level modules:
+	nand2
+
+} {} {}} /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shifter_hier.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shifter_hier.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module shifter_hier
+
+Top level modules:
+	shifter_hier
+
+} {} {}} /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shifter.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shifter.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shift2_row.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shift2_row.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module shift2_row
+
+Top level modules:
+	shift2_row
+
+} {} {}} /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shift4_row.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shift4_row.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module shift4_row
+
+Top level modules:
+	shift4_row
+
+} {} {}} /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shifter_hier_bench.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shifter_hier_bench.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module shifter_hier_bench
+
+Top level modules:
+	shifter_hier_bench
+
+} {} {}} /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/clkrst.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/clkrst.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/mux2_1.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/mux2_1.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/and2.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/and2.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module and2
+
+Top level modules:
+	and2
+
+} {} {}} /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shift8_row.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/shift8_row.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module shift8_row
+
+Top level modules:
+	shift8_row
+
+} {} {}} /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/mux4_1.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/mux4_1.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module mux4_1
+
+Top level modules:
+	mux4_1
+
+} {} {}} /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/not1.v {1 {vlog -work work -vopt -stats=none /afs/cs.wisc.edu/u/d/r/dresser/private/552/hw2_1/not1.v
+QuestaSim vlog 10.4c Compiler 2015.07 Jul 19 2015
+-- Compiling module not1
+
+Top level modules:
+	not1
+
+} {} {}}
