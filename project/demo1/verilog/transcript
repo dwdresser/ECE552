@@ -1,0 +1,68 @@
+# vsim -c proc_hier_bench -lib __work -voptargs="+acc" -wlf dump.wlf -do "log -howmany -rec /* ; run -all" 
+# Start time: 12:43:15 on Mar 14,2017
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim
+# //  Version 10.4c linux Jul 19 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.proc_hier_bench(fast)
+# Loading work.proc_hier(fast)
+# Loading work.clkrst(fast)
+# Loading work.proc(fast)
+# Loading work.pc(fast)
+# Loading work.dff(fast)
+# Loading work.memory2c(fast)
+# Loading work.memory2c(fast__1)
+# Loading work.rf(fast)
+# Loading work.decoder(fast)
+# Loading work.reg_16bit(fast)
+# Loading work.regmux(fast)
+# Loading work.mux8_1(fast)
+# Loading work.alu(fast)
+# Loading work.inverter_16bit(fast)
+# Loading work.xor2(fast)
+# Loading work.flip(fast)
+# Loading work.shifter(fast)
+# Loading work.shift1_row(fast)
+# Loading work.mux4_1(fast)
+# Loading work.mux2_1(fast)
+# Loading work.not1(fast)
+# Loading work.nand2(fast)
+# Loading work.and2(fast)
+# Loading work.shift2_row(fast)
+# Loading work.shift4_row(fast)
+# Loading work.shift8_row(fast)
+# Loading work.CLA_16bit(fast)
+# Loading work.CLA_4bit(fast)
+# Loading work.full_adder_PGS(fast)
+# Loading work.or_16bit(fast)
+# Loading work.xor_16bit(fast)
+# Loading work.and_16bit(fast)
+# Loading work.quadmux_16bit(fast)
+# Loading work.extend_16bit(fast)
+# Loading work.quadmux_3bit(fast)
+# Loading work.CLA_16bit(fast__1)
+# Loading work.twomux_16bit(fast)
+# Loading work.twomux_16bit(fast__1)
+# Loading work.control(fast)
+# Loading work.branch_logic(fast)
+# log -howmany -rec /* 
+# 13991
+#  run -all
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# ** Note: $finish    : proc_hier_bench.v(97)
+#    Time: 10 us  Iteration: 1  Instance: /proc_hier_bench
+# End time: 12:43:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
