@@ -1,0 +1,47 @@
+Warning: Design 'proc' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : reference
+Design : proc
+Version: L-2016.03-SP4-1
+Date   : Tue Mar 14 02:33:38 2017
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND2X2             gscl45nm       2.815800       2      5.631600  
+BUFX2              gscl45nm       2.346500      16     37.543999  
+CLA_16bit_1                     637.778689       1    637.778689  h
+CLA_16bit_2                     420.492800       1    420.492800  h
+INVX1              gscl45nm       1.407900      22     30.973799  
+INVX2              gscl45nm       1.877200       1      1.877200  
+OR2X2              gscl45nm       2.815800      15     42.236999  
+alu                            7781.932432       1   7781.932432  h
+branch_logic                     32.851000       1     32.851000  h
+control                         540.164292       1    540.164292  h, n
+extend_16bit                    499.335191       1    499.335191  h
+memory2c_0                    17295.112572       1  17295.112572  h, n
+memory2c_1                    16203.990092       1  16203.990092  h, n
+mux4_1_171                       46.460699       1     46.460699  h
+pc                              187.719995       1    187.719995  h, n
+quadmux_3bit                    162.377797       1    162.377797  h
+quadmux_16bit_3                 730.700086       1    730.700086  h
+quadmux_16bit_4                 680.954286       1    680.954286  h
+quadmux_16bit_5                 733.515883       1    733.515883  h
+rf                             2302.855060       1   2302.855060  b, h, n
+twomux_16bit_0                  229.018395       1    229.018395  h
+twomux_16bit_1                  237.465796       1    237.465796  h
+-----------------------------------------------------------------------------
+Total 22 references                                 48840.988660
+1

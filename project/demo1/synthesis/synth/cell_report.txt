@@ -1,0 +1,109 @@
+Warning: Design 'proc' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : cell
+Design : proc
+Version: L-2016.03-SP4-1
+Date   : Tue Mar 14 02:33:38 2017
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U20                       INVX1           gscl45nm        1.407900  
+U21                       INVX1           gscl45nm        1.407900  
+U22                       INVX1           gscl45nm        1.407900  
+U23                       BUFX2           gscl45nm        2.346500  
+U24                       BUFX2           gscl45nm        2.346500  
+U25                       INVX1           gscl45nm        1.407900  
+U26                       BUFX2           gscl45nm        2.346500  
+U27                       BUFX2           gscl45nm        2.346500  
+U28                       INVX1           gscl45nm        1.407900  
+U29                       INVX1           gscl45nm        1.407900  
+U30                       BUFX2           gscl45nm        2.346500  
+U31                       BUFX2           gscl45nm        2.346500  
+U32                       BUFX2           gscl45nm        2.346500  
+U33                       INVX1           gscl45nm        1.407900  
+U34                       INVX1           gscl45nm        1.407900  
+U35                       INVX1           gscl45nm        1.407900  
+U36                       BUFX2           gscl45nm        2.346500  
+U37                       INVX1           gscl45nm        1.407900  
+U38                       INVX1           gscl45nm        1.407900  
+U39                       INVX1           gscl45nm        1.407900  
+U40                       INVX1           gscl45nm        1.407900  
+U41                       INVX1           gscl45nm        1.407900  
+U42                       AND2X2          gscl45nm        2.815800  
+U43                       INVX1           gscl45nm        1.407900  
+U44                       AND2X2          gscl45nm        2.815800  
+U45                       INVX1           gscl45nm        1.407900  
+U46                       INVX1           gscl45nm        1.407900  
+U47                       INVX1           gscl45nm        1.407900  
+U48                       OR2X2           gscl45nm        2.815800  
+U49                       OR2X2           gscl45nm        2.815800  
+U50                       OR2X2           gscl45nm        2.815800  
+U51                       OR2X2           gscl45nm        2.815800  
+U52                       OR2X2           gscl45nm        2.815800  
+U53                       OR2X2           gscl45nm        2.815800  
+U54                       OR2X2           gscl45nm        2.815800  
+U55                       OR2X2           gscl45nm        2.815800  
+U56                       OR2X2           gscl45nm        2.815800  
+U57                       INVX1           gscl45nm        1.407900  
+U58                       BUFX2           gscl45nm        2.346500  
+U59                       OR2X2           gscl45nm        2.815800  
+U60                       BUFX2           gscl45nm        2.346500  
+U61                       BUFX2           gscl45nm        2.346500  
+U62                       BUFX2           gscl45nm        2.346500  
+U63                       BUFX2           gscl45nm        2.346500  
+U64                       BUFX2           gscl45nm        2.346500  
+U65                       BUFX2           gscl45nm        2.346500  
+U66                       OR2X2           gscl45nm        2.815800  
+U67                       OR2X2           gscl45nm        2.815800  
+U68                       OR2X2           gscl45nm        2.815800  
+U69                       OR2X2           gscl45nm        2.815800  
+U70                       OR2X2           gscl45nm        2.815800  
+U71                       INVX2           gscl45nm        1.877200  
+U72                       INVX1           gscl45nm        1.407900  
+U73                       INVX1           gscl45nm        1.407900  
+U74                       BUFX2           gscl45nm        2.346500  
+U75                       INVX1           gscl45nm        1.407900  
+alu_block                 alu                             7781.932432
+                                                                    h
+alu_in2_mux               quadmux_16bit_5                 733.515883
+                                                                    h
+branch_logic_block        branch_logic                    32.851000 h
+control_block             control                         540.164292
+                                                                    h, n
+data_mem                  memory2c_0                      17295.112572
+                                                                    h, n
+extend_imm                extend_16bit                    499.335191
+                                                                    h
+final_reg_wr_data         quadmux_16bit_3                 730.700086
+                                                                    h
+instruction_mem           memory2c_1                      16203.990092
+                                                                    h, n
+pc_block                  pc                              187.719995
+                                                                    h, n
+pc_branch_sel             twomux_16bit_1                  237.465796
+                                                                    h
+pc_in_mux                 quadmux_16bit_4                 680.954286
+                                                                    h
+pc_plus2_adder            CLA_16bit_2                     420.492800
+                                                                    h
+pc_plus_imm_adder         CLA_16bit_1                     637.778689
+                                                                    h
+reg_in_sel                twomux_16bit_0                  229.018395
+                                                                    h
+reg_wr_sel                quadmux_3bit                    162.377797
+                                                                    h
+register_file             rf                              2302.855060
+                                                                    b, h, n
+set_ops                   mux4_1_171                      46.460699 h
+--------------------------------------------------------------------------------
+Total 73 cells                                            48840.988660
+1
